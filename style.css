@@ -1,0 +1,8 @@
+body { font-family: Arial, sans-serif; padding: 2em; background: #fafafa; color: #232323; transition: background 0.2s, color 0.2s;}
+body.dark { background: #23282f; color: #eee; }
+.header { display: flex; justify-content: space-between; align-items: center; }
+input, button, select { margin: 0.2em; padding: 0.4em; }
+.person { display: inline-block; margin: 0.2em 0.5em 0.2em 0; background: #eee; border-radius: 4px; padding: 0.2em 0.7em; }
+.expense { margin: 0.4em 0; }
+#result { margin-top: 1em; font-weight: bold; }
+.participant-chk { margin-right: 0.6em; }
