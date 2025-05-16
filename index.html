@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Quick Split</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="header">
+    <h2>🧮 Quick Split</h2>
+    <button onclick="toggleTheme()">🌙/☀️</button>
+  </div>
+  <div>
+    <input id="personInput" placeholder="Add person">
+    <button onclick="addPerson()">Add</button>
+    <div id="people"></div>
+  </div>
+  <div style="margin-top:1em">
+    <input id="expenseName" placeholder="Expense name">
+    <input id="expenseAmount" type="number" step="0.01" placeholder="Amount">
+    <select id="expensePayer"></select>
+    <span>Participants:</span>
+    <span id="expenseParticipants"></span>
+    <button onclick="addExpense()">Add Expense</button>
+    <div id="expenses"></div>
+  </div>
+  <div style="margin-top:2em">
+    <button onclick="calculate()">Calculate Balances</button>
+    <div id="result"></div>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>
